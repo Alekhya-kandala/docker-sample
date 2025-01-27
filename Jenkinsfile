@@ -18,7 +18,7 @@ pipeline {
             steps {
                 script {
                     // Build the Docker image
-                    sh "docker pull nginx"
+                    sh "docker build -t alekhya8/nginx-custom ."
                 }
             }
         }
