@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_IMAGE = 'alekhya8/nginx-custom' // Replace with your Docker Hub repository
-        DOCKER_CREDENTIALS = 'docker-hub-credentials' // Jenkins credential ID for Docker Hub
+        DOCKER_CREDENTIALS = 'docker-hub' // Jenkins credential ID for Docker Hub
     }
 
     stages {
